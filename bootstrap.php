@@ -22,7 +22,7 @@ class DoctrineBoostrap{
         $conn = array(
             'dbname' => 'P3API',
             'user' => 'root',
-            'password' => '000000',
+            'password' => '',
             'host' => '127.0.0.1',
             'driver' => 'pdo_mysql',
             'charset'  => 'utf8',
