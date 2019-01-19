@@ -20,16 +20,16 @@ class DoctrineBoostrap{
         $config = Setup::createAnnotationMetadataConfiguration(array(__DIR__."/src"), $isDevMode);
 
         $conn = array(
-            'dbname' => 'P3API',
+            'mysql:host' => 'localhost',
+            'dbname' => 'P3API;',
+            'charset'  => 'utf8',
             'user' => 'root',
             'password' => '',
-            'host' => '127.0.0.1',
-            'driver' => 'pdo_mysql',
-            'charset'  => 'utf8',
             'driverOptions' => array(
                 1002 => 'SET NAMES utf8'
             )
         );
+
 
         $this->entityManager = EntityManager::create($conn, $config);
     }

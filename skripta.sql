@@ -31,3 +31,4 @@ alter table operater add foreign key (mjesto) references mjesto(sifra);
 insert into mjesto(naziv) values ('Osijek'), ('Zagreb');
 
 update operater set mjesto=1;
+

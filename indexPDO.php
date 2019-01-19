@@ -65,6 +65,6 @@ Flight::map('notFound', function(){
 //lokalno
 //Flight::register('db', 'PDO', array('mysql:host=localhost;dbname=P3API;charset=UTF8','root','000000'));
 //server
-Flight::register('db', 'PDO', array('mysql:host=localhost;dbname=P3API;charset=UTF8','root','000000'));
+Flight::register('db', 'PDO', array('mysql:host=localhost;dbname=ipalko_P3;charset=UTF8','ipalko','1dc86d1a'));
 
 Flight::start();
